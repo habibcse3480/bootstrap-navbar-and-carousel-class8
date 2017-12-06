@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>this is title page </title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+    </head>
+    <body>
+        <div class="jumbotron mb-0" >
+            <div class="container">
+                <h3>Welcome To My personal Blog</h3>
+                <p>Welcome To My personal Blog. its my blog for shareing knowledge</p>
+            </div>
+
+        </div>
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+            <!--use sticky top class for fixed menubar in top -->
+            <div class="container">
+                <a href="" class="navbar-brand">
+                    <img src="images/logo1.png" height="30px" width="40px">
+                </a>
+                <button type="button" class="navbar-toggler" data-target="#mainMemu" data-toggle="collapse">
+                    <!--icon show korar jonw-->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="mainMemu">
+                    <ul class="navbar-nav mr-auto">
+                        <li><a href="" class="nav-link">Home</a> </li>
+                        <li><a href="" class="nav-link">About</a> </li>
+                        <!--dropdown toggole use-->
+                        <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" >service</a>
+                            <ul class="dropdown-menu bg-primary">
+                                <li><a href="" class="nav-link">Web Apps Developement</a> </li>
+                                <li><a href="" class="nav-link">Web Developement</a> </li>
+                                <li><a href="" class="nav-link">Web Design</a> </li>
+                                <li><a href="" class="nav-link">php</a> </li>
+                                <li><a href="" class="nav-link">SEO</a> </li>
+                            </ul>
+
+
+                        </li>
+                        <li><a href="" class="nav-link">Gallary</a> </li>
+                        <li><a href="" class="nav-link">Contact</a> </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li><a href="" class="nav-link"data-toggle="modal" data-target="#SignUpModal">SignUp</a> </li>
+                        <li ><a href="" class="nav-link" data-toggle="modal" data-target="#LogInModal">Login</a> </li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+        <!--code for slider -->
+        <!--carousel 3 parts are 1.carousel inner, control, indicator-->
+        <div id="mainslider" class="carousel slide" data-ride="carousel" data-interval="1000">
+            <!--use data-interval for control slider speed -->
+            <ol class="carousel-indicators">
+                <li data-target="#mainslider" data-slide-to="0" class="active"></li>
+                <li data-target="#mainslider" data-slide-to="1" class="active"></li>
+                <li data-target="#mainslider" data-slide-to="2" class="active"></li>
+                <li data-target="#mainslider" data-slide-to="3" class="active"></li>
+            </ol>
+           <div class="carousel-inner">
+               <div class="carousel-item active">
+                   <img src="images/si1.jpg" class="w-100" height="450px" alt=""/>
+                   <div class="carousel-caption">
+                       <h3 class="text-primary">Some Content Here </h3>
+                       <p>Some Content Here. for caption one . its a caption for your slider </p>
+                   </div>
+               </div>
+               <div class="carousel-item">
+                   <img src="images/si2.jpg" class="w-100" height="450px" alt=""/>
+                   <div class="carousel-caption">
+                       <h3 class="text-primary">Some Content Here </h3>
+                       <p>Some Content Here. for caption one . its a caption for your slider </p>
+                   </div>
+               </div>
+               <div class="carousel-item">
+                   <img src="images/si3.jpg"  class="w-100" height="450px" alt=""/>
+                   <div class="carousel-caption">
+                       <h3 class="text-primary">Some Content Here </h3>
+                       <p>Some Content Here. for caption one . its a caption for your slider </p>
+                   </div>
+               </div>
+               <div class="carousel-item">
+                   <img src="images/si4.jpg" class="w-100"  height="450px" alt=""/>
+                   <div class="carousel-caption">
+                       <h3 class="text-primary">Some Content Here </h3>
+                       <p>Some Content Here. for caption one . its a caption for your slider </p>
+                   </div>
+               </div>
+               <div class="carousel-item">
+                   <img src="images/si5.jpg" class="w-100" height="450px" alt=""/>
+                   <div class="carousel-caption ">
+                       <h3 class="text-primary">Some Content Here </h3>
+                       <p>Some Content Here. for caption one . its a caption for your slider </p>
+                   </div>
+               </div>
+
+
+            </div>
+                <a href="#mainslider" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#mainslider" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+        </div>
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <!--<button type="button" data-toggle="modal" data-target="#modal" class="btn btn-success"> Click Me </button>-->
+
+
+                    <!--<div class="modal fade" id="modal">-->
+                        <!--<div class="modal-dialog modal-lg">-->
+                            <!--<div class="modal-content">-->
+                                <!--<div class="modal-header">-->
+                                    <!--<h3>Modal Header</h3>-->
+                                    <!--<button type="button" class="close" data-dismiss="modal">-->
+                                        <!--&Cross;-->
+                                    <!--</button>-->
+                                <!--</div>-->
+                                <!--<div class="modal-body">-->
+                                    <!--<h2>model body part</h2>-->
+                                <!--</div>-->
+                                <!--<div class="modal-footer">-->
+                                    <!--<h4>this is a modal footer part</h4>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+
+
+
+
+
+
+                                        <!--SIGNUP FORM dESIGN -->
+
+
+                    <div class="modal fade" id="SignUpModal">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3  class="text-success align-content-center" >SignUp</h3>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        &Cross;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label>First Name:</label>
+                                            <input type="text" name="first_name" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Last Name :</label>
+                                            <input type="text" name="last_name" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>User Name :</label>
+                                            <input type="text" name="user_name" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Email Address :</label>
+                                            <input type="email" name="email_address" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Password :</label>
+                                            <input type="password" name="password" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Phone Number  :</label>
+                                            <input type="number" name="phone_number" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Date Of Birth :</label>
+                                            <input type="date" name="date_of_birth" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label><input type="radio" name="gender" value="male">Male</label>
+                                            <label><input type="radio" name="gender" value="female">Female</label>
+
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Address</label>
+                                            <textarea type="text" name="address" class="form-control"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>District Name</label>
+                                            <select name="district_name" class="form-control">
+                                                <option>------select district Name----------</option>
+                                                <option>BARGUNA</option>
+                                                <option>BARISAL</option>
+                                                <option>BHOLA</option>
+                                                <option>JHALOKATI</option>
+                                                <option>PATUAKHALI</option>
+                                                <option>PIROJPUR </option>
+                                                <option>BANDARBAN</option>
+                                                <option> BRAHMANBARIA</option>
+                                                <option> CHANDPUR</option>
+                                                <option>CHITTAGONG</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Image</label>
+                                            <input type="file" name="image" accept="image/*"/>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input type="checkbox" name="agree" class="form-check-input"/>I agree with all terms and condition
+                                            </label>
+                                        </div>
+                                    </form>
+
+
+
+                                </div>
+                                <div class="form-group">
+                                    <button type="" class="btn btn-success btn-block">Register</button>
+                                </div>
+
+                            </div>
+                                <div class="modal-footer">
+                                    <h4>this is a modal footer part</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                <!--LogIn form -->
+
+                <div class="modal fade" id="LogInModal">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="text-success">Login</h3>
+                                <button type="button" class="close" data-dismiss="modal">
+                                    &Cross;
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                <div class="form-group">
+                                    <label>User Name </label>
+                                    <input type="text" name="user_name" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                <label>Password </label>
+                                <input type="password" name="password" class="form-control">
+                                </div>
+                            <div class="form-group">
+                                <button type="" class="btn btn-success btn-block">Login</button>
+                            </div>
+                            </form>
+                        </div>
+
+                            <div class="modal-footer">
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="js/jquery-3.2.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
